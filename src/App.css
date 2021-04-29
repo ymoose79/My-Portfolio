@@ -96,6 +96,7 @@ nav ul li {
 
 .navbar-toggler-icon {
   color: var(--primary-blue) !important;
+  border: rgb(247, 105, 10);
 }
 
 /* ***********************************  Header  *********************************** */
@@ -170,5 +171,30 @@ nav ul li {
 @media (max-width: 768px) {
   .particles-canvas {
     display: none;
+  }
+}
+
+/* *******************************  about me  ******************************** */
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 26rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-blue);
+}
+
+.about-heading {
+  color: var(--primary-blue);
+}
+
+@media (max-width: 468px) {
+  .profile-img {
+    width: 10rem;
   }
 }
