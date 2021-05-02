@@ -7,6 +7,9 @@
   --primary-highlight: #1ac9bb;
   --primary-serv-orange: #c9a406;
   --primary-serv-blue: #104a7d;
+  --primary-exp-lite-grey: #f4f4f4;
+  --primary-exp-dark-grey: #666666;
+  --primary-exp-grey: #ccd1d9;
   --primary-dark: rgba(20, 7, 41, 0);
   --primary-red: rgb(247, 105, 10);
   --primary-light-grey: rgba(192, 233, 225, 0.836);
@@ -244,4 +247,89 @@ nav ul li {
 
 .services .box:hover p {
   color: rgb(243, 242, 241);
+}
+
+/* ********************************  Experience  *********************************** */
+
+.experience-wrapper {
+  position: relative;
+  padding: 3.125rem 0;
+  overflow: hidden;
+}
+
+.experience h1 {
+  text-transform: uppercase;
+  color: var(--primary-serv-blue);
+}
+
+/* creates the "time-line" */
+.experience-wrapper::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: var(--primary-exp-grey);
+  z-index: 1;
+}
+
+.timeline-block {
+  width: calc(50% + 0.5rem);
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
+
+.timeline-block-right {
+  float: right;
+}
+
+.timeline-block-left {
+  float: left;
+  direction: rtl;
+}
+
+.marker {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.3125rem solid var(--primary-exp-dark-grey);
+  background: var(--primary-highlight);
+  margin-top: 0.625rem;
+  z-index: 3;
+}
+
+.timeline-content {
+  width: 95%;
+  color: var(--primary-serv-blue);
+  padding: 0 0.9375rem;
+  direction: ltr;
+}
+
+.timeline-content h3 {
+  margin-top: 0.3125rem;
+  color: var(--primary-serv-orange);
+  font-weight: 400;
+}
+
+/* ********************   media   ****************** */
+@media (max-width: 768px) {
+  .experience .container {
+    padding-left: 0.5rem;
+  }
+  .experience-wrapper::before {
+    left: 1rem;
+    margin-bottom: 1.875;
+  }
+  .timeline-block-right {
+    float: none;
+    width: 100%;
+  }
+  .timeline-block-left {
+    float: none;
+    direction: ltr;
+    width: 100%;
+  }
 }
