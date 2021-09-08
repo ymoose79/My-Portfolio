@@ -7,6 +7,10 @@ import Particles from "react-particles-js";
 import AboutMe from "./components/AboutMe.js";
 import Services from "./components/Services.js";
 import Experience from "./components/Experience.js";
+import Portfolio from "./components/Portfolio.js";
+import Contacts from "./components/Contacts.js";
+// import Rando from "./components/Rando.js";
+
 
 function App() {
   return (
@@ -37,6 +41,9 @@ function App() {
       <AboutMe />
       <Services />
       <Experience />
+      <Portfolio/>
+      <Contacts/>
+      {/* <Rando/> */}
     </>
   );
 }

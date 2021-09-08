@@ -132,12 +132,13 @@ nav ul li {
 
 .main-info h1 {
   color: var(--primary-blue);
+  font-size: 8em;
 }
 
 /* ***********************************  typed text  *********************************** */
 
 .typed-text {
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--primary-highlight);
 }
 
@@ -204,6 +205,18 @@ nav ul li {
   .profile-img {
     width: 10rem;
   }
+  .about-heading {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+}
+
+.fab {
+  font-size: 2em;
+  padding: 0.25em;
+  color: red;
 }
 
 /* *******************************  services ******************************** */
@@ -231,14 +244,15 @@ nav ul li {
 .services .box {
   height: 20rem;
   border-bottom: 0.315rem solid var(--primary-serv-orange);
+  border-top: 0.315rem solid var(--primary-serv-orange);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: rgb(243, 242, 241);
+  transition: 0.3s ease-in-out;
 }
 
 .services .box:hover {
   background: var(--primary-serv-orange);
-  border-bottom: 0.315rem solid var(--primary-highlight);
 }
 
 .services .box:hover .circle {
@@ -265,7 +279,7 @@ nav ul li {
 /* creates the "time-line" */
 .experience-wrapper::before {
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   left: 50%;
   margin-left: -0.0625rem;
@@ -331,5 +345,185 @@ nav ul li {
     float: none;
     direction: ltr;
     width: 100%;
+  }
+}
+
+/* ********************   Portfolio   ****************** */
+
+.portfolio-wrapper {
+  background-color: var(--primary-exp-grey);
+  padding: 3rem 0;
+}
+
+.portfolio-image {
+  width: 15rem;
+  border: 1px solid var(--primary-serv-orange);
+  padding: 1rem 1rem;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem 0.5rem;
+}
+
+/* ********************   Overflow Box   ****************** */
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-serv-blue);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid var(--primary-red);
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+/* ********************   popup Box   ****************** */
+
+.portfolio-image-popupbox {
+  width: 50rem;
+  padding: 0 3rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--primary-serv-orange);
+}
+
+.hyper-link:hover {
+  color: var(--primary-red);
+}
+
+/* ********************   Media   ****************** */
+
+@media (max-width: 768px) {
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+}
+
+@media (max-height: 500px) {
+  .popupbox-wrapper {
+    height: 90% !important;
+  }
+  .portfolio-image-popupbox {
+    width: 60%;
+  }
+}
+
+/* ********************   CONTACTS COMPONENT   ****************** */
+
+.--hidden {
+  display: none;
+}
+
+.contacts {
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: var(--primary-highlight);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-exp-dark-grey);
+  font-size: 1.2rem;
+}
+
+/* ********************   inputs   ****************** */
+.contacts input,
+.contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--primary-blue);
+  border-radius: 0;
+  color: var(--primary-serv-blue);
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+.contacts input:focus,
+.contacts textarea:focus {
+  background: var(--primary-exp-grey);
+  color: var(--primary-serv-blue);
+  border-bottom: 0.125rem solid var(--primary-blue);
+}
+
+.contacts textarea {
+  height: 12.2rem !important;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+  color: red;
+  border-color: red;
+}
+
+.line {
+  position: relative;
+  top: -0.7rem;
+  width: 0;
+  height: 0.25rem;
+  background: var(--primary-exp-lite-grey);
+  display: inline-block;
+}
+
+input:focus + .line,
+textarea:focus + .line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+.contact-btn:hover {
+  background-color: var(--primary-highlight);
+  color: white;
+  border-color: var(--primary-highlight);
+}
+
+input.form-control {
+  margin: -0.3rem 0;
+}
+
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+
+.success-message {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  color: red;
+  font-size: 1.5rem;
+}
+
+/* ********************  media  ****************** */
+@media (max-width: 768px) {
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts {
+    overflow-x: hidden;
+  }
+  .contacts p {
+    padding: 0 0.4rem;
   }
 }
