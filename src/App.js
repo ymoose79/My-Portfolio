@@ -9,7 +9,7 @@ import Services from "./components/Services.js";
 import Experience from "./components/Experience.js";
 import Portfolio from "./components/Portfolio.js";
 import Contacts from "./components/Contacts.js";
-// import Rando from "./components/Rando.js";
+import Footer from "./components/Footer.js";
 
 
 function App() {
@@ -43,7 +43,7 @@ function App() {
       <Experience />
       <Portfolio/>
       <Contacts/>
-      {/* <Rando/> */}
+      <Footer/>
     </>
   );
 }

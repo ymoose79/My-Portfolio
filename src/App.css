@@ -50,7 +50,7 @@
   }
 }
 
-/* ***********************************NavBar*********************************** */
+/* ****************************   NavBar   ******************************** */
 
 nav {
   z-index: 2;
@@ -60,6 +60,7 @@ nav {
   color: #2277bd;
   font-weight: 500;
   font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 /*---- menu links --------*/
@@ -88,8 +89,8 @@ nav ul li {
 
 .navbar-brand {
   max-width: 17.25rem;
-  padding-top: 2rem !important;
-  height: 6rem !important;
+  padding-top: 0.5rem !important;
+  height: 4rem !important;
 }
 
 .navbar-nav > li > a.active,
@@ -113,7 +114,7 @@ nav ul li {
   background: url(milky-way.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -494,9 +495,9 @@ textarea:focus + .line {
 }
 
 .contact-btn:hover {
-  background-color: var(--primary-highlight);
+  background-color: var(--primary-red);
   color: white;
-  border-color: var(--primary-highlight);
+  border-color: var(--primary-red);
 }
 
 input.form-control {
@@ -526,4 +527,26 @@ textarea.form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+/* ********************   FOOTER    ****************** */
+.footer {
+  background-color: #343a40 !important;
+  color: var(--primary-exp-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-exp-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-red);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
