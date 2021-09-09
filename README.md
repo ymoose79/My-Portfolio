@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## My Portfolio
-This portfolio was a course I downloaded on Udemy.  The reason I opted to go this route was because I wanted to incorporate bootstrap, Github as well as React to get the feel for how things work.  There were also some CSS elements that I really liked and wanted to learn as well.  The downside to the tutorials is it's monkey pushes buttons.  Obviously it's faster to copy someones template vs learning on your own and creating from scratch, but the learning isn't as solid.  Still, there's something to be said for repetition, playing with the CSS elements and making them your own, as well figuring out why code isn't working because it's dated (as happaned in my react-hook-form section). 
+This portfolio was a course I downloaded on Udemy.  The reason I opted to go this route was because I wanted to incorporate bootstrap, Github as well as React to get the feel for how things work.  There were also some CSS elements that I really liked and wanted to learn.  The downside to the tutorials is it's monkey pushes buttons.  Obviously it's faster to copy someones template vs learning on your own and creating from scratch, but the learning isn't as solid.  Still, there's something to be said for repetition, playing with the CSS elements and making them your own, as well figuring out why code isn't working because it's dated (as happaned in my react-hook-form section). 
 
 ### Strengths
 
