@@ -8,12 +8,6 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                     <div className="d-flex justify-content-md-left">
-                            <p>8544 Ruckman Ave Jacksonville Fl 32221</p>
-                        </div>
-                        <div className="d-flex justify-content-md-left">
-                            <a href="tel:561-513-3313">561-513-3313</a>
-                        </div>
                         <div className="d-flex justify-content-md-left">
                             <p>Justin.R.Stock@gmail.com</p>
                         </div>
