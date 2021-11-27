@@ -28,7 +28,7 @@ const AboutMe = () => {
             <i class="fab fa-node-js"></i>
             <i class="fab fa-bootstrap"></i>
             <i class="fab fa-react"></i>
-            <img class="fab svelte" src={svelte}/>
+            <img class="fab svelte" src={svelte} alt="svelte log"/>
           </p>
         </div>
       </div>
