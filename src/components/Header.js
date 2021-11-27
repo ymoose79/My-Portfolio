@@ -14,9 +14,9 @@ const Header = () => {
             "TONS of Life Experiernce",
             "Concentrated on Vanilla JS",
             "Background in the Fine Arts",
-            ""
+            "Current Mentorship with a Developer"
           ]}
-          typeSpeed={70}
+          typeSpeed={75}
           backSpeed={15}
           loop
         />

@@ -3,12 +3,12 @@
 }
 
 :root {
-  --primary-blue: #2277bd;
+  --primary-blue: #56A3E1;
   --primary-highlight: #1ac9bb;
   --primary-serv-orange: #c9a406;
   --primary-serv-blue: #104a7d;
   --primary-exp-lite-grey: #f4f4f4;
-  --primary-exp-dark-grey: #666666;
+  --primary-exp-dark-grey: #3d3d3d;
   --primary-exp-grey: #ccd1d9;
   --primary-dark: rgba(20, 7, 41, 0);
   --primary-red: rgb(247, 105, 10);
@@ -57,7 +57,7 @@ nav {
 }
 
 .me {
-  color: #2277bd;
+  color: #56A3E1;
   font-weight: 500;
   font-size: 2.5rem;
   margin-bottom: 1rem;
@@ -75,7 +75,7 @@ nav a.nav-link {
 
 nav ul li {
   text-transform: uppercase;
-  color: #2277bd;
+  color: #56A3E1;
 }
 
 .navbar-nav > li > a {
@@ -185,6 +185,10 @@ nav ul li {
 
 /* *******************************  about me  ******************************** */
 
+#about-me{
+  background-color: white;
+}
+
 .photo-wrap {
   display: flex;
   justify-content: center;
@@ -195,11 +199,11 @@ nav ul li {
   width: 26rem;
   border-radius: 50%;
   padding: 0.3rem;
-  border: 1px solid var(--primary-blue);
+  border: 1px solid #195A8F;
 }
 
 .about-heading {
-  color: var(--primary-blue);
+  color: #195A8F;
 }
 
 @media (max-width: 468px) {
@@ -239,11 +243,9 @@ nav ul li {
 }
 
 .circle {
-  /* background-color: antiquewhite; */
   position: relative;
   margin: 0.375rem;
   background: var(--primary-blue);
-  /* background: var(--primary-serv-orange); */
   border-radius: 50%;
   padding: 0.5rem;
 }
@@ -331,7 +333,7 @@ nav ul li {
 
 .timeline-content h3 {
   margin-top: 0.3125rem;
-  color: var(--primary-serv-orange);
+  color: #6A5406;
   font-weight: 400;
 }
 
@@ -357,6 +359,10 @@ nav ul li {
 
 /* ********************   Portfolio   ****************** */
 
+.text{
+  color: var(--primary-exp-dark-grey);
+}
+
 .portfolio-wrapper {
   background-color: var(--primary-exp-grey);
   padding: 3rem 0;
@@ -380,7 +386,7 @@ nav ul li {
   opacity: 0;
   background: var(--primary-serv-blue);
   width: 15rem;
-  height: 8rem;
+  height: 8.8rem;
   top: 0;
   border: 1px solid var(--primary-red);
   cursor: pointer;
@@ -435,7 +441,7 @@ nav ul li {
 }
 
 .contacts h1 {
-  color: var(--primary-highlight);
+  color: var(--primary-serv-blue);
   padding: 1.3rem 0;
   text-transform: uppercase;
 }
@@ -453,7 +459,7 @@ nav ul li {
   background: none;
   resize: none;
   border: 0;
-  border-bottom: 0.125rem solid var(--primary-blue);
+  border-bottom: 0.125rem solid var(--primary-serv-blue);
   border-radius: 0;
   color: var(--primary-serv-blue);
   outline: 0 !important;
@@ -537,7 +543,7 @@ textarea.form-control {
 
 /* ********************   FOOTER    ****************** */
 .footer {
-  background-color: #343a40 !important;
+  background-color: var(--primary-exp-grey);
   color: var(--primary-exp-dark-grey);
   padding: 3rem;
 }

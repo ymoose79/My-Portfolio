@@ -4,7 +4,7 @@ import svelte from "./ImagesPortfolio/Svelte.svg";
 
 const AboutMe = () => {
   return (
-    <div id="about me" className="container py-5">
+    <div id="about-me" className="container py-5">
       <div className="row">
         <div className="col-lg-6 col-xm-12">
           {/* the mb-5 below is margin for bootstrap, rather than doing via css */}
@@ -18,7 +18,7 @@ const AboutMe = () => {
           <p>
             2021 is all about acquiring web dev skills. Primarily I've been
             focusing on vanilla JS.  While working w/ Mongo, I hit a hitch
-            in my shell path and it forced me to learn the terminal (bitter-sweet).  During that time, I developed a WordPress site as I put off fixing my package files for a while.  Currently working with Svelte. 
+            in my shell path and it forced me to learn the terminal (bitter-sweet).  During that time, I developed a WordPress site as I put off fixing my package (now sordid).  Currently working with Svelte. 
           </p>
           <p>
             <i class="fab fa-js-square"></i>
