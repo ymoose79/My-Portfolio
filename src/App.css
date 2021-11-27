@@ -219,6 +219,12 @@ nav ul li {
   padding: 0.25em;
   color: red;
 }
+.svelte {
+  height: 1.75em;
+  margin-top: -.5em;
+  margin-left: -.1em;
+}
+
 
 /* *******************************  services ******************************** */
 
