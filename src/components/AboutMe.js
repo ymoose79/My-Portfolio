@@ -16,19 +16,21 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">About Me</h1>
           <p>
-            2021 is all about acquiring web dev skills. Primarily I've been
-            focusing on vanilla JS.  While working w/ Mongo, I hit a hitch
-            in my shell path and it forced me to learn the terminal (bitter-sweet).  During that time, I developed a WordPress site as I put off fixing my package (now sordid).  Currently working with Svelte. 
+            I haven’t focused on a frontend framework in particular. I’ve done
+            some dabbling with React and Vue, but I’m more experienced with
+            Svelte. The same with DBs and Apis. I include these in most of my
+            projects. While I haven’t focused on either MongoDB or a SQL DB, I
+            understand the basic method for connecting to them and from there
+            I’m modeling my code based on either examples or the docs.
           </p>
           <p>
             <i class="fab fa-js-square"></i>
             <i class="fab fa-wordpress"></i>
             <i class="fab fa-html5"></i>
             <i class="fab fa-css3-alt"></i>
-            <i class="fab fa-node-js"></i>
             <i class="fab fa-bootstrap"></i>
             <i class="fab fa-react"></i>
-            <img class="fab svelte" src={svelte} alt="svelte log"/>
+            <img class="fab svelte" src={svelte} alt="svelte log" />
           </p>
         </div>
       </div>
