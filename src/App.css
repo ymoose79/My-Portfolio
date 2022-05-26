@@ -3,7 +3,7 @@
 }
 
 :root {
-  --primary-blue: #56A3E1;
+  --primary-blue: #56a3e1;
   --primary-highlight: #1ac9bb;
   --primary-serv-orange: #c9a406;
   --primary-serv-blue: #104a7d;
@@ -57,7 +57,7 @@ nav {
 }
 
 .me {
-  color: #56A3E1;
+  color: #56a3e1;
   font-weight: 500;
   font-size: 2.5rem;
   margin-bottom: 1rem;
@@ -75,7 +75,7 @@ nav a.nav-link {
 
 nav ul li {
   text-transform: uppercase;
-  color: #56A3E1;
+  color: #56a3e1;
 }
 
 .navbar-nav > li > a {
@@ -185,7 +185,7 @@ nav ul li {
 
 /* *******************************  about me  ******************************** */
 
-#about-me{
+#about-me {
   background-color: white;
 }
 
@@ -199,11 +199,11 @@ nav ul li {
   width: 26rem;
   border-radius: 50%;
   padding: 0.3rem;
-  border: 1px solid #195A8F;
+  border: 1px solid #195a8f;
 }
 
 .about-heading {
-  color: #195A8F;
+  color: #195a8f;
 }
 
 @media (max-width: 468px) {
@@ -225,10 +225,9 @@ nav ul li {
 }
 .svelte {
   height: 1.75em;
-  margin-top: -.5em;
-  margin-left: -.1em;
+  margin-top: -0.5em;
+  margin-left: -0.1em;
 }
-
 
 /* *******************************  services ******************************** */
 
@@ -288,7 +287,7 @@ nav ul li {
 /* creates the "time-line" */
 .experience-wrapper::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 50%;
   margin-left: -0.0625rem;
@@ -333,7 +332,7 @@ nav ul li {
 
 .timeline-content h3 {
   margin-top: 0.3125rem;
-  color: #6A5406;
+  color: #6a5406;
   font-weight: 400;
 }
 
@@ -359,7 +358,7 @@ nav ul li {
 
 /* ********************   Portfolio   ****************** */
 
-.text{
+.text {
   color: var(--primary-exp-dark-grey);
 }
 
@@ -521,7 +520,7 @@ textarea.form-control {
 }
 
 .success-message {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 600;
   color: red;
   font-size: 1.5rem;

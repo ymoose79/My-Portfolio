@@ -3,6 +3,8 @@ import TicTacToe from "./ImagesPortfolio/TicTacToe.png";
 import theOddsApi from "./ImagesPortfolio/theOddsApi.png";
 import pcb from "./ImagesPortfolio/pcb.png";
 import Todo from "./ImagesPortfolio/Todo.png";
+import airBnbSpoof from "./ImagesPortfolio/airBnbSpoof.png";
+
 
 //  react popup box
 import { PopupboxContainer, PopupboxManager } from "react-popupbox";
@@ -115,8 +117,8 @@ const Portfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={Todo} alt="Todo... " />
         <p>
-          Todo list made in Svelte where user pushes input into an array which is then rendered
-          and can be deleted. 
+          Todo list made in Svelte where user pushes input into an array which
+          is then rendered and can be deleted.
         </p>
         <b>GitHub: </b>{" "}
         <a
@@ -131,11 +133,43 @@ const Portfolio = () => {
         <a
           className="hyper-link"
           href="https://todo-list-beta-flax.vercel.app"
-          onClick={() =>
-            window.open("https://todo-list-beta-flax.vercel.app")
-          }
+          onClick={() => window.open("https://todo-list-beta-flax.vercel.app")}
         >
           https://todo-list-beta-flax.vercel.app
+        </a>
+      </>
+    );
+    PopupboxManager.open({ content });
+  };
+  const openPopupboxAirBnb = () => {
+    const content = (
+      <>
+        <img
+          className="portfolio-image-popupbox"
+          src={airBnbSpoof}
+          alt="Air Bnb "
+        />
+        <p>
+          MERN stack Air Bnb spoof in development.  Currently, only GET functionality working
+        </p>
+        <b>GitHub: </b>{" "}
+        <a
+          className="hyper-link"
+          href="https://github.com/ymoose79/mern-air-bnb"
+          onClick={() => window.open("https://github.com/ymoose79/mern-air-bnb")}
+        >
+          https://github.com/ymoose79/mern-air-bnb
+        </a>
+        <br></br>
+        <b>Live: </b>{" "}
+        <a
+          className="hyper-link"
+          href="https://silver-belekoy-139fa5.netlify.app"
+          onClick={() =>
+            window.open("https://silver-belekoy-139fa5.netlify.app")
+          }
+        >
+          https://silver-belekoy-139fa5.netlify.app
         </a>
       </>
     );
@@ -167,13 +201,22 @@ const Portfolio = () => {
     },
     fadeIn: true,
     fadeInSpeed: 500,
-  };  
-  
+  };
+
   const popupboxConfigTodo = {
     //  baked in elements for styling:
     titleBar: {
       enable: true,
       text: "Todo List",
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
+  const popupboxConfigAirBnb = {
+    //  baked in elements for styling:
+    titleBar: {
+      enable: true,
+      text: "Airbnb Spoof",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -203,11 +246,11 @@ const Portfolio = () => {
           </div>
           {/*  */}
           <div className="portfolio-image-box" onClick={openPopupboxTodo}>
-            <img
-              className="portfolio-image"
-              src={Todo}
-              alt="Todo-list"
-            />
+            <img className="portfolio-image" src={Todo} alt="Todo-list" />
+            <div className="overflow"></div>
+          </div>
+          <div className="portfolio-image-box" onClick={openPopupboxAirBnb}>
+            <img className="portfolio-image" src={airBnbSpoof} alt="Airbnb" />
             <div className="overflow"></div>
           </div>
           <div className="portfolio-image-box" onClick={openPopupPCB}>
@@ -224,6 +267,7 @@ const Portfolio = () => {
       <PopupboxContainer {...popupboxConfigTheOdds} />
       <PopupboxContainer {...popupboxConfigTodo} />
       <PopupboxContainer {...popupboxConfigPCB} />
+      <PopupboxContainer {...popupboxConfigAirBnb} />
     </div>
   );
 };

@@ -68,7 +68,12 @@ const Experience = () => {
             <h3>Feb 2021 - current</h3>
             <p>
               #learnToCode. I enjoy taking data from an API and displaying that
-              information, especially in Graph format. I've been fairly active on slack.  I posted my portfolio for review and a company (SpinSpire) reached out to me.  I sarted a mentorship with them this past Oct.  I've been learning Svelte as well as other useful things like becoming more familiar with git.  It's really been advantageous to be in a production enviornment. {" "}
+              information, especially in Graph format. I've been fairly active
+              on slack. I posted my portfolio for review and a company
+              (SpinSpire) reached out to me. I sarted a mentorship with them
+              this past Oct. I've been learning Svelte as well as other useful
+              things like becoming more familiar with git. It's really been
+              advantageous to be in a production enviornment.{" "}
             </p>
           </div>
         </div>

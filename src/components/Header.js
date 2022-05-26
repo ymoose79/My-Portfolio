@@ -12,9 +12,9 @@ const Header = () => {
           className="typed-text"
           strings={[
             "TONS of Life Experiernce",
-            "Concentrated on Vanilla JS",
+            "Concentrated on JS frameworks",
             "Background in the Fine Arts",
-            "Current Mentorship with a Developer"
+            "Current Mentorship with a Developer",
           ]}
           typeSpeed={75}
           backSpeed={15}
