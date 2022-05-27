@@ -4,7 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## My Portfolio
-This portfolio was a course I downloaded on Udemy.  The reason I opted to go this route was because I wanted to incorporate bootstrap, Github as well as React to get the feel for how things work.  There were also some CSS elements that I really liked and wanted to learn.  The downside to the tutorials is it's monkey pushes buttons. Still, there's something to be said for repetition, playing with the CSS elements and making them your own, as well figuring out why code isn't working because it's dated (as happaned in my react-hook-form section). 
+This portfolio was a course I downloaded on Udemy.  The reason I opted to go this route was because I wanted to incorporate bootstrap, Github as well as React to get the feel for how things work.  There were also some CSS elements that I really liked and wanted to learn.  The downside to the tutorials is it's monkey pushes buttons. 
+I made some design choices, had to work from the docs as react-hook-form was deprecated.  After adding newest MERN stack project (airbnb spoof), I refactored my Portfolio section/created new component because the code was getting unwieldy.  I'll also thank myself next time I change/add a new project.
 
 ### Strengths
 
