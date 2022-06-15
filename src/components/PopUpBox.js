@@ -15,16 +15,13 @@ const PopUpBox = (props) => {
                     src={src}
                     alt={text}
                 />
-                <p>
-                    {p}
-                </p>
+                <p>{p}</p>
                 <b>GitHub: </b>{" "}
                 <a
                     className="hyper-link"
                     href={git}
                     onClick={() => window.open({ git })}
-                >
-                    {git}
+                >{git}
                 </a>
                 <br></br>
                 <b>Live: </b>{" "}
@@ -34,8 +31,7 @@ const PopUpBox = (props) => {
                     onClick={() =>
                         window.open({ url })
                     }
-                >
-                    {url}
+                >{url}
                 </a>
             </>
         );

@@ -4,6 +4,8 @@ import theOddsApi from "./ImagesPortfolio/theOddsApi.png";
 import pcb from "./ImagesPortfolio/pcb.png";
 import Todo from "./ImagesPortfolio/Todo.png";
 import airBnbSpoof from "./ImagesPortfolio/airBnbSpoof.png";
+import ApiCard from "./ImagesPortfolio/ApiCard.png";
+
 
 import "react-popupbox/dist/react-popupbox.css";
 import PopUpBox from "./PopUpBox";
@@ -14,13 +16,6 @@ const Portfolio = () => {
       <div className="container">
         <h1 className="text -uppercase text-center py-5">Portfolio</h1>
         <div className="image-box-wrapper row justify-content-center">
-          <PopUpBox
-            src={TicTacToe}
-            text="TicTacToe"
-            url="https://heuristic-thompson-b85607.netlify.app"
-            git="https://github.com/ymoose79/tic-tac-toe"
-            p='Basic Tic-Tac-Toe with modules and where Player 1 gets to choose "O"s or "X"s'
-          />
           <PopUpBox
             src={theOddsApi}
             text="The Odds Api"
@@ -39,6 +34,13 @@ const Portfolio = () => {
             url="https://todo-list-beta-flax.vercel.app"
             git="https://github.com/ymoose79/todo"
             p='Todo list made in Svelte where user pushes input into an array which is then rendered and can be deleted.' />
+          <PopUpBox
+            src={ApiCard}
+            text="Api Card"
+            url="https://velvety-dodol-62c946.netlify.app/"
+            git="https://github.com/ymoose79/react-api-card"
+            p='REACT Demo project for a job.  Code is currently set to private out of respect to the position.  Link available upon request'
+          />
           <PopUpBox
             src={airBnbSpoof}
             text="Airbnb Spoof"
