@@ -16,12 +16,7 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">About Me</h1>
           <p>
-            I haven’t focused on a frontend framework in particular. I’ve done
-            some dabbling with React and Vue, but I’m more experienced with
-            Svelte. The same with DBs and Apis. I include these in most of my
-            projects. While I haven’t focused on either MongoDB or a SQL DB, I
-            understand the basic method for connecting to them and from there
-            I’m modeling my code based on either examples or the docs.
+            I spent most of my development learning vanilla JS, started using Svelte as my front-end framework but for the past few months I've been focusing on React.  I have a basic understanding of connecting to DBs. While I haven’t focused on either MongoDB or a SQL DB,   I find the docs of the former easier to start from.  I'm currently working on a MERN air-bnb spoof to help become a little more familiar with the process.
           </p>
           <p>
             <i class="fab fa-js-square"></i>
