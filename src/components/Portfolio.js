@@ -1,5 +1,4 @@
 import React from "react";
-import TicTacToe from "./ImagesPortfolio/TicTacToe.png";
 import theOddsApi from "./ImagesPortfolio/theOddsApi.png";
 import pcb from "./ImagesPortfolio/pcb.png";
 import Todo from "./ImagesPortfolio/Todo.png";
