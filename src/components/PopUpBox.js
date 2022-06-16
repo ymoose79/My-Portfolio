@@ -19,17 +19,17 @@ const PopUpBox = (props) => {
                 <b>GitHub: </b>{" "}
                 <a
                     className="hyper-link"
-                    href={git}
-                    onClick={() => window.open({ git })}
+                    href="/"
+                    onClick={() => window.open(git)}
                 >{git}
                 </a>
                 <br></br>
                 <b>Live: </b>{" "}
                 <a
                     className="hyper-link"
-                    href={url}
+                    href="/"
                     onClick={() =>
-                        window.open({ url })
+                        window.open(url)
                     }
                 >{url}
                 </a>
