@@ -17,7 +17,7 @@ const Portfolio = () => {
           <PopUpBox
             src={theOddsApi}
             text="The Odds Api"
-            p=" User selects a Sport and all upcoming games populate with relative gambling information"
+            p="Vanilla JS dropdown that access API and dynamicaly populates cards"
             url="https://thirsty-jackson-5c987d.netlify.app"
             git="https://github.com/ymoose79/sports-odds" />
           <PopUpBox
