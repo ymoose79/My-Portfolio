@@ -19,13 +19,13 @@ const AboutMe = () => {
             I spent most of my development learning vanilla JS, started using Svelte as my front-end framework but for the past few months I've been focusing on React.  I have a basic understanding of connecting to DBs. While I haven’t focused on either MongoDB or a SQL DB,   I find the docs of the former easier to start from.  I'm currently working on a MERN air-bnb spoof to help become a little more familiar with the process.
           </p>
           <p>
-            <i class="fab fa-js-square"></i>
-            <i class="fab fa-wordpress"></i>
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3-alt"></i>
-            <i class="fab fa-bootstrap"></i>
-            <i class="fab fa-react"></i>
-            <img class="fab svelte" src={svelte} alt="svelte log" />
+            <i className="fab fa-js-square"></i>
+            <i className="fab fa-wordpress"></i>
+            <i className="fab fa-html5"></i>
+            <i className="fab fa-css3-alt"></i>
+            <i className="fab fa-bootstrap"></i>
+            <i className="fab fa-react"></i>
+            <img className="fab svelte" src={svelte} alt="svelte log" />
           </p>
         </div>
       </div>

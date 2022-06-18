@@ -10,8 +10,6 @@ const Contacts = () => {
     formState: { errors },
   } = useForm();
 
-  console.log(errors);
-
   const serviceID = "service_ID";
   const templateID = "template_ID";
   const userID = "user_ACybij4wHklMm2Nz0Vbnj";

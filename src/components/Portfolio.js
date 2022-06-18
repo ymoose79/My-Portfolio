@@ -1,6 +1,5 @@
 import React from "react";
 import theOddsApi from "./ImagesPortfolio/theOddsApi.png";
-import pcb from "./ImagesPortfolio/pcb.png";
 import Todo from "./ImagesPortfolio/Todo.png";
 import airBnbSpoof from "./ImagesPortfolio/airBnbSpoof.png";
 import ApiCard from "./ImagesPortfolio/ApiCard.png";
@@ -21,12 +20,6 @@ const Portfolio = () => {
             p=" User selects a Sport and all upcoming games populate with relative gambling information"
             url="https://thirsty-jackson-5c987d.netlify.app"
             git="https://github.com/ymoose79/sports-odds" />
-          <PopUpBox
-            src={pcb}
-            text="pre-coding bootcamp"
-            url="https://pre-codingbootcamp.com"
-            git=""
-            p='Wordpress site to help potential coding bootcamp students get prepared' />
           <PopUpBox
             src={Todo}
             text="Svelte Todo List"

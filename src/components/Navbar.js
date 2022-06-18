@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
       <div className="container">
-        <Link className="navbar-brand" href="#">
+        <Link className="navbar-brand" href="#" to="home">
           <p className="me">Justin R Stock</p>
         </Link>
 
@@ -31,7 +31,7 @@ const Navbar = () => {
             <li className="nav-item">
               <Link
                 smooth={true}
-                to="about me"
+                to="about-me"
                 offset={-70}
                 className="nav-link"
                 href="#About me"
