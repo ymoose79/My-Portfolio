@@ -1,8 +1,8 @@
 import React from "react";
 import theOddsApi from "./ImagesPortfolio/theOddsApi.png";
 import Todo from "./ImagesPortfolio/Todo.png";
+import TicTacToe from "./ImagesPortfolio/TicTacToe.png"
 import airBnbSpoof from "./ImagesPortfolio/airBnbSpoof.png";
-import ApiCard from "./ImagesPortfolio/ApiCard.png";
 
 
 import "react-popupbox/dist/react-popupbox.css";
@@ -15,6 +15,13 @@ const Portfolio = () => {
         <h1 className="text -uppercase text-center py-5">Portfolio</h1>
         <div className="image-box-wrapper row justify-content-center">
           <PopUpBox
+            src={TicTacToe}
+            text="Api Card"
+            url="https://heuristic-thompson-b85607.netlify.app/"
+            git="https://github.com/ymoose79/tic-tac-toe"
+            p='Placeholder until I can figure out what is goin on with vercel on a different project. Pure Vanilla JS, 1st project, I never did make it mobile friendly.'
+          />
+          <PopUpBox
             src={theOddsApi}
             text="The Odds Api"
             p="Vanilla JS dropdown that access API and dynamicaly populates cards"
@@ -26,13 +33,6 @@ const Portfolio = () => {
             url="https://todo-list-beta-flax.vercel.app"
             git="https://github.com/ymoose79/todo"
             p='Todo list made in Svelte where user pushes input into an array which is then rendered and can be deleted.' />
-          <PopUpBox
-            src={ApiCard}
-            text="Api Card"
-            url="https://velvety-dodol-62c946.netlify.app/"
-            git="https://github.com/ymoose79/react-api-card"
-            p='REACT Demo project for a job.  Code is currently set to private out of respect to the position.  Link available upon request'
-          />
           <PopUpBox
             src={airBnbSpoof}
             text="Airbnb Spoof"
